@@ -6,8 +6,9 @@ import { User } from './users/user.entity';
 @Module({
   imports: [
     TypeOrmModule.forRoot({
-      type: 'better-sqlite3',
-      database: 'trainer.sqlite',
+      type: 'sqljs',
+      autoSave: true,
+      location: 'trainer.sqlite',
       entities: [User],
       synchronize: true,
     }),
