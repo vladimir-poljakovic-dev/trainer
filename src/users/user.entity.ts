@@ -9,7 +9,7 @@ export class User {
   email: string;
 
   // Public-facing login handle
-  @Column()
+  @Column({ unique: true })
   username: string;
 
   @Column({ nullable: true })
