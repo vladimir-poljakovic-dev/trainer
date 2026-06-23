@@ -1,0 +1,75 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .navbar {
+    background-color: #000000 !important;
+    border-bottom: 2px solid #000000;
+  }
+  
+  .navbar-brand {
+    color: #ffffff !important;
+    font-weight: bold;
+  }
+  
+  .btn-outline-dark {
+    border: 1px solid #000000;
+    color: #000000;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 0;
+  }
+  
+  .form-control {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #000000;
+    border-radius: 0;
+  }
+  
+  .form-control:focus {
+    background-color: #ffffff;
+    border-color: #000000;
+    color: #000000;
+    box-shadow: none;
+  }
+  
+  .list-group-item {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #000000;
+    border-radius: 0;
+  }
+  .btn-logout {
+    background-color: #ffffff;
+    border-color: #000000;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 10%;
+  }
+  
+  .btn-logout:hover {
+    background-color: #000000;
+    border-color: #ffffff;
+    color: #ffffff;
+  }
+  
+  .btn-styled {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #000000;
+    border-radius: 10%;
+  }
+  
+  .btn-styled:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  h2 {
+    font-weight: bold;
+  }
