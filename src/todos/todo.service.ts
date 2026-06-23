@@ -21,7 +21,7 @@ export class TodosService {
 
   async findOne(id: number) {
     const todo = await this.repo.findOne({where:{ id }});
-    if(!todo) throw new NotFoundException('Todo #${id} not found');
+    if(!todo) throw new NotFoundException('Todo #${id} not found'); //404
     return todo;
   }
 
